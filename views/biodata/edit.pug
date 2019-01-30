@@ -1,0 +1,12 @@
+html
+    head
+        title Ubah Biodata
+    body
+        form(action=`/biodata/${data.id_biodata}?_method=PUT` method="post")
+            label Nama
+                input(type="text" name="nama" value=data.nama)
+                br
+            label Alamat
+                input(type="text" name="alamat" value=data.alamat)
+                br
+            input(type="submit" value="simpan")

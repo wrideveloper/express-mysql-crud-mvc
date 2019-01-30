@@ -1,0 +1,22 @@
+{
+  "name": "express-mysql-crud",
+  "version": "1.0.0",
+  "description": "simple implementation of express and mysql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "m. nindra zaka",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "method-override": "^3.0.0",
+    "mysql": "^2.15.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
