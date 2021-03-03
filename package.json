@@ -14,7 +14,7 @@
     "express": "^4.16.3",
     "method-override": "^3.0.0",
     "mysql": "^2.15.0",
-    "pug": "^2.0.3"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.4"
